@@ -1,8 +1,9 @@
-package com.example.notesapp
+package com.example.notesapp.feature_note.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.compose.setContent
+import com.example.notesapp.R
 import com.example.notesapp.ui.theme.CleanArchitectureNoteAppTheme
 
 class MainActivity : AppCompatActivity() {
