@@ -7,7 +7,11 @@ import com.example.notesapp.feature_note.domain.model.Note
     entities =[Note::class],
     version = 1
 )
-abstract class Notedatabase {
+abstract class NoteDatabase {
     abstract  val noteDao : NoteDao
+
+    companion object{
+        const val DATABASE_NAME ="notes_db"
+    }
 
 }
